@@ -1,0 +1,5 @@
+make all
+sudo insmod task1.ko
+DEVICE_N=`dmesg | tail -n 1 | tr " " "\n" | tail -n -1`
+sudo mknod /dev/task1 c $DEVICE_N 0
+sudo chmod 666 /dev/task1
