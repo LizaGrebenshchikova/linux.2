@@ -1,0 +1,2 @@
+make all
+sudo insmod task2.ko
