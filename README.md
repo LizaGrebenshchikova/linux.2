@@ -12,7 +12,7 @@ Usage:
 	
 	find user: echo "f [username];" > /dev/task1 && cat /dev/task1
 	
-	remove user: echo "d [username];" > /dev/task1
+	remove user: echo "r [username];" > /dev/task1
 
 ## task2
 
