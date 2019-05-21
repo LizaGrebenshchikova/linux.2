@@ -3,12 +3,16 @@
 ## task1
 
 Install:
+
 	./task1/build
 
 Usage:
-	add user: echo "a <phone> <username>;" > /dev/task1
-	find user: echo "f <username>;" > /dev/task1 && cat /dev/task1
-	remove user: echo "d <username>;" > /dev/task1
+
+	add user: echo "a [phone] [username];" > /dev/task1
+	
+	find user: echo "f [username];" > /dev/task1 && cat /dev/task1
+	
+	remove user: echo "d [username];" > /dev/task1
 
 ## task2
 
