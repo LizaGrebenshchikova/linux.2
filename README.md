@@ -20,5 +20,7 @@ Install:
 	./task2/build
 
 Usage:
+
 	run `dmesg | tail -1` to show the last key pressing record
+	
 	updates once a minute
